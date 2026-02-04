@@ -1,0 +1,14 @@
+node_modules/
+.env
+*.log
+.DS_Store
+
+# Images
+images/
+images-optimized/
+
+# Wallet
+wallet.json
+
+# Results
+*-results-*.json

@@ -1,0 +1,27 @@
+{
+  "name": "arweave-image-uploader",
+  "version": "1.0.0",
+  "description": "Upload optimized images to Arweave using Turbo SDK",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "preview": "bun preview.js",
+    "optimize": "bun optimize-all.js",
+    "estimate": "bun estimate-compare.js",
+    "upload": "bun upload.js"
+  },
+  "keywords": [
+    "arweave",
+    "turbo",
+    "image",
+    "upload"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@ardrive/turbo-sdk": "latest",
+    "arbundles": "^0.11.2",
+    "dotenv": "^16.0.0",
+    "sharp": "^0.33.0"
+  }
+}
